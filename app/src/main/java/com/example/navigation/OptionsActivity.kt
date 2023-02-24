@@ -28,6 +28,8 @@ class OptionsActivity : BaseActivity() {
         setupCheckBox()
         updateUI()
 
+        //println("new commit 2")
+
         binding.cancelButton.setOnClickListener { onCancelPressed() }
         binding.confirmButton.setOnClickListener { onConfirmPressed() }
     }
