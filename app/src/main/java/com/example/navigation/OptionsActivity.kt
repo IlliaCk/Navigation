@@ -28,9 +28,6 @@ class OptionsActivity : BaseActivity() {
         setupCheckBox()
         updateUI()
 
-
-
-
         binding.cancelButton.setOnClickListener { onCancelPressed() }
         binding.confirmButton.setOnClickListener { onConfirmPressed() }
     }
