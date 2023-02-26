@@ -31,6 +31,8 @@ class OptionsActivity : BaseActivity() {
         //println("new commit 2")
 //        print("commit #3")
 
+        //println("Hello from GitHub")
+
         binding.cancelButton.setOnClickListener { onCancelPressed() }
         binding.confirmButton.setOnClickListener { onConfirmPressed() }
     }
